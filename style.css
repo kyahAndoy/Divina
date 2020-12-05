@@ -68,13 +68,13 @@ text-align:center;
 color:#111;
 visibility:hidden;
 opacity:0;
-transition:0.3s ease-in-out;
+transition:0.4s ease-in-out;
 }
 
 .container .card:hover .content{
 visibility:visible;
 opacity:1;
 margin-top: -20px;
-transition-delay:0.3s;
+transition-delay:0.4s;
 }
 
