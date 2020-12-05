@@ -14,7 +14,6 @@ body{
 }
 
 .container{
-height:100px;
 position:relative;
 width:1100px;
 display:flex;
@@ -39,7 +38,7 @@ transition:0.3s ease-in-out;
 }
 
 .container .card:hover{
-height: 420px;
+height: 450px;
 
 }
 
@@ -49,15 +48,15 @@ height: 420px;
 position:relative;
 width:260px;
 height:260px;
-top:-60;
-left:20px;
+top:-60px;
+left:10px;
 z-index:1;
 box-shadow:0 5px 20px rgba(0,0,0,0.2);
 }
 
 .container .card .imgBx img{
 max-width:100%;
-border-radius:4px;
+border-radius:8px;
 
 }
 
@@ -75,6 +74,7 @@ transition:0.3s ease-in-out;
 .container .card:hover .content{
 visibility:visible;
 opacity:1;
-margin-top: -140px;
-
+margin-top: -20px;
+transition-delay:0.3s;
 }
+
