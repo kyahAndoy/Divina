@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-height:100px;
+
 position:relative;
 width:1100px;
 display:flex;
@@ -32,7 +32,7 @@ background: #fff;
 margin:30px 10px;
 padding:20px 15px;
 display:flex;
-flex-dirextion:column;
+flex-direction:column;
 box-shadow:0 5px 202px rgba(0,0,0,0.5);
 transition:0.3s ease-in-out;
 
