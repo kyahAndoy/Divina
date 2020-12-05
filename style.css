@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-
+height:100px;
 position:relative;
 width:1100px;
 display:flex;
